@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__title">
+            IT КУРСЫ
+        </div>
+        <button class="btn-reset burger" aria-label="Меню навигации">
+            <span class="burger__line">
+            </span>
+            <span class="burger__line">
+            </span>
+        </button>
+    </header>
+
+    <main class="container">
+        <section class="base">
+            <div class="base__swiper swiper">
+                <ul class="base__wrapper swiper-wrapper list-reset">
+                    <li class="base__slide swiper-slide">IT КУРСЫ</li>
+                    <li class="base__slide swiper-slide">IT КУРСЫ</li>
+                    <li class="base__slide swiper-slide">IT КУРСЫ</li>
+                </ul>
+                <div class="base__pagination swiper-pagination"></div>
+            </div>
+            <div class="base__wrap">
+                <ul class="base__list list-reset">
+                    <li class="base__item">UX/UI</li>
+                    <li class="base__item">FRONTEND</li>
+                    <li class="base__item">BACKEND</li>
+                </ul>
+            </div>
+        </section>
+        <section class="lesson">
+            <div class="lesson__container">
+                <h2 class="lesson__title">
+                    Наши уроки
+                </h2>
+                <div class="lesson__categories">
+                    <ul class="categories__list list-reset">
+                        <li class="categories__item">Категория 1</li>
+                        <li class="categories__item">Категория 2</li>
+                        <li class="categories__item">Категория 3</li>
+                    </ul>
+                </div>
+                <div class="lesson__wrap">
+                    <ul class="lesson__list list-reset">
+                        <li class="lesson__item"><span>1 Урок</span></li>
+                        <li class="lesson__item"><span>2 Урок</span></li>
+                        <li class="lesson__item"><span>3 Урок</span></li>
+                        <li class="lesson__item"><span>4 Урок</span></li>
+                        <li class="lesson__item"><span>5 Урок</span></li>
+                        <li class="lesson__item"><span>6 Урок</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__title">
+            Ты преподаватель, которого мы ищем?
+            <svg class="footer__svg" width="355" height="152" viewBox="0 0 355 152" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M354.5 96.5C354.5 95.1193 353.381 94 352 94H329.5C328.119 94 327 95.1193 327 96.5C327 97.8807 328.119 99 329.5 99H349.5V119C349.5 120.381 350.619 121.5 352 121.5C353.381 121.5 354.5 120.381 354.5 119V96.5ZM0.5 0C0.5 29.6224 15.4982 57.8795 39.4568 81.6799C63.4272 105.492 96.5275 125.019 133.209 137.247C206.491 161.674 294.863 157.173 353.768 98.2678L350.232 94.7322C293.137 151.827 207.009 156.576 134.791 132.503C98.7225 120.481 66.3228 101.321 42.9806 78.1326C19.6268 54.933 5.5 27.8776 5.5 0H0.5Z"
+                    fill="#7563FC" />
+            </svg>
+
+        </div>
+        <button class="footer__btn btn-reset">ДА</button>
+    </footer>
+</body>
+
+</html>
